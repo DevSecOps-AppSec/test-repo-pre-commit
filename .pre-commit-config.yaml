@@ -1,0 +1,5 @@
+repos:
+  - repo: git@github.com:DevSecOps-AppSec/test_keys.git
+    rev: main  # Replace with the appropriate branch or tag
+    hooks:
+      - id: gitleaks
